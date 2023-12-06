@@ -1,5 +1,5 @@
-import { chunk, intersection, invert, range } from "lodash";
-import { loadInput, loadInputAsArray } from "./util";
+import { chunk } from "lodash";
+import { loadInput } from "./util";
 
 type IntervalMap = {
   srcStart: number;

@@ -73,7 +73,6 @@ async function part2() {
     }
     return i;
   });
-  console.log(cycleLengths);
 
   return cycleLengths.reduce((acc, val) => lcm(acc, val), 1);
 }

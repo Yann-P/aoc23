@@ -212,4 +212,4 @@ async function part2() {
   return nInside;
 }
 
-Promise.all([part2()]).then(console.log);
+Promise.all([part1(), part2()]).then(console.log);
